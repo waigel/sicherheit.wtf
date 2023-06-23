@@ -38,7 +38,15 @@ const sidebars = {
           label: 'DNS',
           items: [
           'best-practices/dns/recommended-dns-records',
-        ]},
+          ]
+        },
+        {
+          type: 'category', 
+          label: 'Headers',
+          items: [
+          'best-practices/http/headers/x-content-type-options',
+          ]
+        },
   
       ],
     },
